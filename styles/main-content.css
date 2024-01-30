@@ -157,8 +157,6 @@
 
 }
 
-/* POSITION */
-/* principais são static, relative, absolute, fixed, e sticky. */
 
 .cards {
   position: relative; 
