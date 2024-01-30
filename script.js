@@ -25,3 +25,7 @@ const observer = new ResizeObserver(() => {
 });
 observer.observe(container);
 
+function fechar(){
+  let closed = document.querySelector('.disclaimer-premium')
+  closed.style.display = 'none'
+}
