@@ -1,19 +1,22 @@
-/* HEADER */
-.main-container{
-    max-width: 80vw;
-    height: 100vh;
-    margin-left: 320px;
-    margin-right: 56px;
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 320px;
+  margin-right: 56px;
 }
-.header-navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    margin: 10px;
-    border-radius: 8px;
-    background-color: #121212;
+
+
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #121212;
 }
+
 .header__navigation .navigation {
   display: flex;
   justify-content: space-around;
@@ -89,7 +92,7 @@
   border-radius: 40px;
 }
 
-/* HOVER */
+
 
 .header__search:hover {
   border: 1px solid #fff;
@@ -104,10 +107,8 @@
   transform: scale(1.04);
 }
 
-
-/* PLAYLIST */
 .playlist-container {
-  height: 68vh;
+  height: auto;
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
@@ -131,7 +132,6 @@
   font-weight: 700;
 }
 
-/* SCROLL */
 .offer__scroll-container {
   max-height: 43vh;
   margin: 24px;
@@ -145,24 +145,31 @@
 .offer__scroll-container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-/* FIM SCROLL */
 
 .offer__list-item {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
+  display: grid;  
   gap: 16px;
-  margin-bottom: 16px; */
-
+  grid-gap: 32px; 
+  margin: 0 auto;
 }
 
 
 .cards {
-  position: relative; 
+  position: relative;
+  width: 220px;
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+  &:hover{
+    img{
+      width: 100%;
+      height: 100%;
+      transform: none;
+    }
+    span{
+      display: none;
+    }
+  }
 }
 
 .cards span {
@@ -173,7 +180,6 @@
   font-weight: 700;
 }
 
-/* COLOR CARDS */
 .card1 {
   background-color: rgb(0, 100, 80);
 }
@@ -219,15 +225,14 @@
 .card15 {
   background: rgb(60, 30, 80);
 }
-/* FIM COLOR CARDS */
 
 .offer__list-item img {
   position: absolute;
   right: 0;
   bottom: 0;
   height: auto;
-  width: 107px;
-  transform: rotate(25deg) translate(18%, -2%);
+  width: 127px;
+  transform: rotate(15deg) translate(18%, -2%);
 }
 
 
