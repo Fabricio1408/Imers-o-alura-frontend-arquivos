@@ -1,4 +1,4 @@
-![GiF]([https://miro.medium.com/v2/resize:fit:440/1*_pRsePRha-TYvmi4k2Yxvg.gif](https://cdn.dribbble.com/users/3691429/screenshots/15011694/spotify.gif))
+![GiF]([https://miro.medium.com/v2/resize:fit:440/1*_pRsePRha-TYvmi4k2Yxvg.gif](https://cdn.dribbble.com/users/3691429/screenshots/15011694/spotify.gif)
 # 🎶 Spotify-Clone:
 Imersão Frontend protagonizada pelo grupo Alura, liderada por Guilherme Lima, Fernanda Degolin, Desenvolvedora Front-end na Globo, e Mayara Cardoso, Desenvolvedora Front-end no Itaú. Este projeto visa a criação de um clone do Spotify, utilizando conhecimentos básicos de HTML, CSS e JS de forma bastante explicativa para quem está surgindo na área da programação web, em uma maratona com aulas diárias. Ficarei atualizando diariamente todo o material criado neste repositório.
 
