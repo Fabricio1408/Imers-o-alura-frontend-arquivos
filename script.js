@@ -13,6 +13,7 @@ const currentHour = new Date().getHours();
 
 
 
+
 const container = document.querySelector(".offer__list-item");
 
 const observer = new ResizeObserver(() => {  
